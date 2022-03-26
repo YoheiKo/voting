@@ -1,4 +1,4 @@
-#### 幼稚園・保育園・小学校等で使用可能な総会決議用ホームページテンプレート
+#### 保育園・小学校等で使用可能な Web 総会決議用ホームページテンプレート
 
 本レポジトリの事例は[こちら](https://honkoma-minami.vercel.app/)
 
@@ -18,6 +18,5 @@ file-loader 6.2.0<br>
 
 #### 連絡先
 
-<br>
 Yohei Komori<br>
 email:hurumori@gmail.com
