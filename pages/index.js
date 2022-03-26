@@ -119,6 +119,9 @@ const Home = () => {
             <a href="mailto:honkomaminami2022@gmail.com ">
               honkomaminami2022@gmail.com{' '}
             </a>{' '}
+            <span className="ml-4">
+              <Link href="https://github.com/YoheiKo/minami_2022">github</Link>
+            </span>
           </p>
         </div>
       </footer>
