@@ -1,6 +1,5 @@
 // import type { NextPage } from 'next'
 import Head from 'next/head'
-import Link from 'next/link'
 import { useState } from 'react'
 import { Document, Page, pdfjs } from 'react-pdf'
 import pdfjsWorkerSrc from '../pdf-worker'
