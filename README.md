@@ -10,7 +10,7 @@ react-pdf 5.7.1<br>
 file-loader 6.2.0<br>
 他は package.json を参照<br>
 
-その仕様等：<br>
+仕様等：<br>
 議案：議案は pdf で作成し、google docs に配置して下段で誰でも閲覧可能なリンクとして貼られてます。また、本プロジェクトの public フォルダに gian.pdf として保存することで、サイト中に pdf が埋め込まれます。<br>
 フォーム：Google Form を利用しリンクを貼りました。よって本アプリにはバックエンド、DB ないです。<br>
 デプロイ：Vercel を推奨しますが、Next.js が動けばどこでもよいと思います。<br>
