@@ -84,29 +84,38 @@ const Home = () => {
           <div className="my-5">
             <div className="py-4">
               <h2 className="mb-2 font-semibold">議案書拡大・ダウンロード</h2>
-              <Link href="https://drive.google.com/file/d/1Z5DG09qyjSmlm1xzKlfHRWgTDnFdW7wD/view?usp=sharing">
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1Z5DG09qyjSmlm1xzKlfHRWgTDnFdW7wD/view?usp=sharing"
+              >
                 <button className=" mx-auto flex w-[40%] justify-center rounded bg-[#79b0f4] py-2 px-4 text-center text-sm text-white outline-none hover:bg-[#7996f4] md:w-[30%]">
                   ダウンロード
                 </button>
-              </Link>
+              </a>
             </div>
             <div className="py-4">
               <h2 className="font-semibold">質問</h2>
               <p className="mb-4">質問期間 4月26日（火）～ 5月6日（金）</p>
-              <Link href="https://docs.google.com/forms/d/e/1FAIpQLSe8Hba1zZjVHjnT1HJSjfVGRw2y45FSaBejroMUWssroZHmyw/viewform">
+              <a
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdLjNxXbPq_2sjPqSGDE8TDpjLrrSKbIXX7hjwvLKGaVEMUnA/viewform?vc=0&c=0&w=1&flr=0"
+              >
                 <button className=" mx-auto flex w-[40%] justify-center rounded bg-[#79b0f4] py-2 px-4 text-center text-sm text-white outline-none hover:bg-[#7996f4] md:w-[30%]">
                   質問・ご意見
                 </button>
-              </Link>
+              </a>
             </div>
             <div className="py-4">
               <h2 className="font-semibold">投票</h2>
               <p className="mb-4">投票期間 4月26日（火）～ 5月13日（金）</p>
-              <Link href="https://docs.google.com/forms/d/e/1FAIpQLSe8Hba1zZjVHjnT1HJSjfVGRw2y45FSaBejroMUWssroZHmyw/viewform">
+              <a
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfe_ZQwGxUPuNZmu9Y38wm1TWPMI7XDo-UBFtRSIXrdahbSuw/viewform?vc=0&c=0&w=1&flr=0"
+              >
                 <button className=" mx-auto flex w-[40%] justify-center rounded bg-[#79b0f4] py-2 px-4 text-center text-sm text-white outline-none hover:bg-[#7996f4] md:w-[30%]">
                   投票ボタン
                 </button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -116,11 +125,13 @@ const Home = () => {
         <div className=" relative after:absolute after:top-0 after:block after:h-2 after:w-full after:bg-[url('/line.jpg')]">
           <p className="pt-6 font-semibold">
             本駒込南保育園父母の会 2022 <br />
-            <a href="mailto:honkomaminami2022@gmail.com ">
+            <a target="_blank" href="mailto:honkomaminami2022@gmail.com ">
               honkomaminami2022@gmail.com{' '}
             </a>{' '}
             <span className="ml-4">
-              <Link href="https://github.com/YoheiKo/minami_2022">github</Link>
+              <a target="_blank" href="https://github.com/YoheiKo/minami_2022">
+                github
+              </a>
             </span>
           </p>
         </div>
